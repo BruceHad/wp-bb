@@ -10,5 +10,41 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
  Text Domain:  twenty-seventeen-child
+ 
+ #262626 #222222
 */
 
+/** Panels */
+.single-featured-image-header, .panel-image {
+ height: 30vh;
+ min-height: 150px;
+ opacity: 0.4;
+}
+
+article {
+}
+article .panel-content {
+}
+.panel-content .wrap {
+}
+
+/** Header */
+.custom-header {
+ background-color: #660909;
+ color: #ddd;
+}
+
+.site-title, .site-title a, .navigation-top, .navigation-top a {
+ color: #e6e6e6;
+}
+
+.site-description, .navigation-top .current-menu-item > a, .navigation-top .current_page_item > a {
+ color: #aaa;
+}
+
+.navigation-top {
+ background-color: #0d1533;
+ color: #ddd;
+ border-top: 1px solid #333;
+ border-bottom: 1px solid #333;
+} 
